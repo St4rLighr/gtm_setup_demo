@@ -19,13 +19,12 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <!-- TODO: Add GTM head script here -->
 </head>
-<body 
+<body class="bg-light">
+  <!-- TODO: Add GTM noscript here -->
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMKRQRPT"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-    class="bg-light">
-  <!-- TODO: Add GTM noscript here -->
   {% include header.html %}
   <main class="main pt-5">
     {{ content }}
